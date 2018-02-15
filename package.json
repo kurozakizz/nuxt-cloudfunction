@@ -1,0 +1,16 @@
+{
+  "name": "Nuxt-CloudFunction",
+  "description": "Deploy Nuxt on Cloud Function",
+  "author": "kurozakizz",
+  "repository": "https://github.com/kurozakizz/nuxt-cloudfunction",
+  "scripts": {
+    "postinstall": "yarn setup",
+    "setup": "yarn setup:src && yarn setup:functions",
+    "setup:src": "cd \"src\" && yarn install",
+    "setup:functions": "cd \"functions\" && yarn install"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "rimraf": "^2.6.2"
+  }
+}
