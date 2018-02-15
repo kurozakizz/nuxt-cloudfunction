@@ -1,13 +1,20 @@
 {
   "name": "Nuxt-CloudFunction",
   "description": "Deploy Nuxt on Cloud Function",
+  "license": "MIT",
   "author": "kurozakizz",
   "repository": "https://github.com/kurozakizz/nuxt-cloudfunction",
   "scripts": {
     "postinstall": "yarn setup",
     "setup": "yarn setup:src && yarn setup:functions",
     "setup:src": "cd \"src\" && yarn install",
-    "setup:functions": "cd \"functions\" && yarn install"
+    "setup:functions": "cd \"functions\" && yarn install",
+    "build": "yarn build:nuxt && yarn clean && yarn copyassets",
+    "build:nuxt": "cd \"src\" && yarn build",
+    "clean": "rimraf public/*",
+    "copyassets": "cp -R functions/nuxt/dist/ public/",
+    "serve": "firebase serve --only functions,hosting",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
     "cross-env": "^5.0.5",
