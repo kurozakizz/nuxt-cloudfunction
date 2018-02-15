@@ -3,6 +3,9 @@
 ## Description
 Deploy Nuxt on Cloud Function and show example isomorphic-fetch to get data from other endpoing
 
+## Configuration
+Put your firebase project id in .firebaserc
+
 ## Installation
 ```sh
 $ yarn
