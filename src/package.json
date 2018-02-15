@@ -1,9 +1,8 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "description": "Nuxt.js + Vuetify.js project",
-  "author": "kurozakizz <squallcope@gmail.com>",
-  "private": true,
+  "description": "Nuxt.js + Cloud Function project",
+  "author": "kurozakizz",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

@@ -1,7 +1,7 @@
-# Nuxt + Firebase functions Project
+# Nuxt + Cloud Function
 
 ## Description
-Use nuxt on firebase cloud function
+Deploy Nuxt on Cloud Function and show example isomorphic-fetch to get data from other endpoing
 
 ## Installation
 
