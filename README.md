@@ -11,14 +11,19 @@ Put your firebase project id in .firebaserc
 $ yarn
 ```
 
-## Open local server
+## Open dev server
 ```sh
-$ yarn serve
+$ yarn dev
 ```
 
 ### Build
 ```sh
 $ yarn build
+```
+
+## Open local server from public
+```sh
+$ yarn serve
 ```
 
 ### Deploy
