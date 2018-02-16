@@ -14,7 +14,8 @@
     "clean": "rimraf public/*",
     "copyassets": "cp -R functions/nuxt/dist/ public/",
     "serve": "firebase serve --only functions,hosting",
-    "deploy": "firebase deploy"
+    "deploy": "firebase deploy",
+    "dev": "cd \"src\" && yarn dev"
   },
   "devDependencies": {
     "cross-env": "^5.0.5",
