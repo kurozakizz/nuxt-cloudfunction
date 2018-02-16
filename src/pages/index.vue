@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>Dashboard</h3>
     <ul>
       <li v-for="fact in facts" :key="fact.text">
         {{ fact.text }}
